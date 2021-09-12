@@ -1,7 +1,7 @@
-package com.upgrad.KafkaProducerApp.controller;
+package com.vishwa.KafkaProducerApp.controller;
 
-import com.upgrad.KafkaProducerApp.dto.MessageDTO;
-import com.upgrad.KafkaProducerApp.services.MessageService;
+import com.vishwa.KafkaProducerApp.dto.MessageDTO;
+import com.vishwa.KafkaProducerApp.services.MessageService;
 import java.io.IOException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;

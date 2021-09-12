@@ -1,4 +1,4 @@
-package com.upgrad.KafkaProducerApp.dto;
+package com.vishwa.KafkaProducerApp.dto;
 
 import java.util.Objects;
 
