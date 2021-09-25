@@ -20,6 +20,12 @@ public class MessageController {
   @Autowired
   private MessageService messageService;
 
+  /**
+   * POST 127.0.0.1:8080
+   * @param messageDTO
+   * @return
+   * @throws IOException
+   */
   @PostMapping(value = "/messages", consumes = MediaType.APPLICATION_JSON_VALUE)
   public ResponseEntity produceData(@RequestBody MessageDTO messageDTO) throws IOException {
     messageService.produceMessage(messageDTO.getTopic(), messageDTO.getKey(), messageDTO.getValue());
